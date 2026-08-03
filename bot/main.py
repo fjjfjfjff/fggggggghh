@@ -10,7 +10,7 @@ from aiogram.fsm.storage.redis import RedisStorage
 
 from bot.config import settings
 from bot.database.engine import create_tables
-from bot.handlers import start, deals, profile
+from bot.handlers import start, deals, profile, havyd
 from bot.middlewares.db import DbSessionMiddleware
 
 logging.basicConfig(
@@ -38,7 +38,8 @@ async def main():
     dp.include_router(start.router)
     dp.include_router(deals.router)
     dp.include_router(profile.router)
-
+    dp.include_router(havyd.router)
+    
     logger.info("Bot started")
 
     await bot.delete_webhook(drop_pending_updates=True)
