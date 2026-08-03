@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 from sqlalchemy import update
-from bot.database.engine import async_session
+from bot.database.engine import async_session_maker as async_session
 from bot.database.models import User
  
 router = Router()
