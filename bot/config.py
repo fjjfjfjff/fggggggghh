@@ -57,7 +57,7 @@ EMOJI = {
     "payment_icon": "5893321843149902412",
 }
 
-GIF_FILE_ID = "AAMCAQADGQEDa1DNanA6r3FtEfA8_uPxiXMCYsFY-4gAArYIAAJuv3hHAAFFAouj_5VKAQAHbQADPQQ"
+GIF_FILE_ID = "CgACAgEAAxkBAAFQ68hqcNBWggYy-exNThIEUlzGMqiu7AACtggAAm6veEdAAUUCi6P-lUoBAAE9BA"
 
 CHANNEL_URL  = "https://t.me/notcoin"
 SUPPORT_URL  = "https://t.me/NotCoinSafety"
